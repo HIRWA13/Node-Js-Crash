@@ -13,7 +13,7 @@ const data = "hello world, i have a nice job and I will be happy with your busin
 //     console.log('file has been written')
 // }));
 
-fs.readFile('message.txt', 'utf8', (err, data) => {
+fs.readFile('./message.txt', 'utf8', (err, data) => {
     if(err) throw err;
     console.log(data)
 })

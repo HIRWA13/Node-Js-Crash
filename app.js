@@ -6,3 +6,4 @@ sayInfo.sayAddress(sayInfo.username)
 
 console.log(`directory name: ${__dirname}`)
 console.log(`filename: ${__filename}`)
+console.log("welcome nodemon")

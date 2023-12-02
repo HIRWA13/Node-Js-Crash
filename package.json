@@ -1,0 +1,14 @@
+{
+  "name": "node-js-crash-course",
+  "version": "1.0.0",
+  "description": "my package manager",
+  "main": "app.js",
+  "scripts": {
+    "develop": "nodemon app.js"
+  },
+  "author": "Junior",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

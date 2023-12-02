@@ -8,9 +8,14 @@ const fs = require('fs');
 
 const data = "hello world, i have a nice job and I will be happy with your business"
 
-fs.writeFile("message.txt", data, ((err) => {
+// fs.writeFile("message.txt", data, ((err) => {
+//     if(err) throw err;
+//     console.log('file has been written')
+// }));
+
+fs.readFile('message.txt', 'utf8', (err, data) => {
     if(err) throw err;
-    console.log('file has been written')
-}));
+    console.log(data)
+})
 
 console.log("let's see if it is asynchronous or not")
